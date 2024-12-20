@@ -1,0 +1,108 @@
+  655  2024-12-20 09:33:41 mkdir hello
+  656  2024-12-20 09:33:44 cd hello/
+  657  2024-12-20 09:33:48 python
+  658  2024-12-20 09:34:22 python -m venv fero
+  662  2024-12-20 09:36:09 . ./fero/bin/activate
+
+(fero) stav@fedora:~/.../Ferro/hello$ pip install python-fasthtml
+Collecting python-fasthtml
+  Downloading python_fasthtml-0.10.1-py3-none-any.whl.metadata (6.5 kB)
+Collecting fastcore>=1.7.18 (from python-fasthtml)
+  Downloading fastcore-1.7.27-py3-none-any.whl.metadata (3.6 kB)
+Collecting python-dateutil (from python-fasthtml)
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting starlette>0.33 (from python-fasthtml)
+  Downloading starlette-0.42.0-py3-none-any.whl.metadata (6.0 kB)
+Collecting oauthlib (from python-fasthtml)
+  Downloading oauthlib-3.2.2-py3-none-any.whl.metadata (7.5 kB)
+Collecting itsdangerous (from python-fasthtml)
+  Downloading itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+Collecting uvicorn>=0.30 (from uvicorn[standard]>=0.30->python-fasthtml)
+  Downloading uvicorn-0.34.0-py3-none-any.whl.metadata (6.5 kB)
+Collecting httpx (from python-fasthtml)
+  Downloading httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+Collecting fastlite>=0.0.9 (from python-fasthtml)
+  Downloading fastlite-0.0.13-py3-none-any.whl.metadata (11 kB)
+Collecting python-multipart (from python-fasthtml)
+  Downloading python_multipart-0.0.20-py3-none-any.whl.metadata (1.8 kB)
+Collecting beautifulsoup4 (from python-fasthtml)
+  Downloading beautifulsoup4-4.12.3-py3-none-any.whl.metadata (3.8 kB)
+Collecting packaging (from fastcore>=1.7.18->python-fasthtml)
+  Downloading packaging-24.2-py3-none-any.whl.metadata (3.2 kB)
+Collecting sqlite-minutils>=3.37.0.post4 (from fastlite>=0.0.9->python-fasthtml)
+  Downloading sqlite_minutils-4.0.3-py3-none-any.whl.metadata (5.3 kB)
+Collecting anyio<5,>=3.4.0 (from starlette>0.33->python-fasthtml)
+  Downloading anyio-4.7.0-py3-none-any.whl.metadata (4.7 kB)
+Collecting click>=7.0 (from uvicorn>=0.30->uvicorn[standard]>=0.30->python-fasthtml)
+  Downloading click-8.1.7-py3-none-any.whl.metadata (3.0 kB)
+Collecting h11>=0.8 (from uvicorn>=0.30->uvicorn[standard]>=0.30->python-fasthtml)
+  Downloading h11-0.14.0-py3-none-any.whl.metadata (8.2 kB)
+Collecting httptools>=0.6.3 (from uvicorn[standard]>=0.30->python-fasthtml)
+  Downloading httptools-0.6.4-cp313-cp313-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.6 kB)
+Collecting python-dotenv>=0.13 (from uvicorn[standard]>=0.30->python-fasthtml)
+  Downloading python_dotenv-1.0.1-py3-none-any.whl.metadata (23 kB)
+Collecting pyyaml>=5.1 (from uvicorn[standard]>=0.30->python-fasthtml)
+  Downloading PyYAML-6.0.2-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.1 kB)
+Collecting uvloop!=0.15.0,!=0.15.1,>=0.14.0 (from uvicorn[standard]>=0.30->python-fasthtml)
+  Downloading uvloop-0.21.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.9 kB)
+Collecting watchfiles>=0.13 (from uvicorn[standard]>=0.30->python-fasthtml)
+  Downloading watchfiles-1.0.3-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.9 kB)
+Collecting websockets>=10.4 (from uvicorn[standard]>=0.30->python-fasthtml)
+  Downloading websockets-14.1-cp313-cp313-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.7 kB)
+Collecting soupsieve>1.2 (from beautifulsoup4->python-fasthtml)
+  Downloading soupsieve-2.6-py3-none-any.whl.metadata (4.6 kB)
+Collecting certifi (from httpx->python-fasthtml)
+  Downloading certifi-2024.12.14-py3-none-any.whl.metadata (2.3 kB)
+Collecting httpcore==1.* (from httpx->python-fasthtml)
+  Downloading httpcore-1.0.7-py3-none-any.whl.metadata (21 kB)
+Collecting idna (from httpx->python-fasthtml)
+  Downloading idna-3.10-py3-none-any.whl.metadata (10 kB)
+Collecting six>=1.5 (from python-dateutil->python-fasthtml)
+  Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting sniffio>=1.1 (from anyio<5,>=3.4.0->starlette>0.33->python-fasthtml)
+  Downloading sniffio-1.3.1-py3-none-any.whl.metadata (3.9 kB)
+Downloading python_fasthtml-0.10.1-py3-none-any.whl (58 kB)
+Downloading fastcore-1.7.27-py3-none-any.whl (83 kB)
+Downloading fastlite-0.0.13-py3-none-any.whl (16 kB)
+Downloading starlette-0.42.0-py3-none-any.whl (73 kB)
+Downloading uvicorn-0.34.0-py3-none-any.whl (62 kB)
+Downloading beautifulsoup4-4.12.3-py3-none-any.whl (147 kB)
+Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
+Downloading httpcore-1.0.7-py3-none-any.whl (78 kB)
+Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+Downloading oauthlib-3.2.2-py3-none-any.whl (151 kB)
+Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Downloading python_multipart-0.0.20-py3-none-any.whl (24 kB)
+Downloading anyio-4.7.0-py3-none-any.whl (93 kB)
+Downloading click-8.1.7-py3-none-any.whl (97 kB)
+Downloading h11-0.14.0-py3-none-any.whl (58 kB)
+Downloading httptools-0.6.4-cp313-cp313-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (473 kB)
+Downloading idna-3.10-py3-none-any.whl (70 kB)
+Downloading python_dotenv-1.0.1-py3-none-any.whl (19 kB)
+Downloading PyYAML-6.0.2-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (759 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 759.5/759.5 kB 15.3 MB/s eta 0:00:00
+Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Downloading soupsieve-2.6-py3-none-any.whl (36 kB)
+Downloading sqlite_minutils-4.0.3-py3-none-any.whl (79 kB)
+Downloading uvloop-0.21.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.7/4.7 MB 20.3 MB/s eta 0:00:00
+Downloading watchfiles-1.0.3-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (442 kB)
+Downloading websockets-14.1-cp313-cp313-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (169 kB)
+Downloading certifi-2024.12.14-py3-none-any.whl (164 kB)
+Downloading packaging-24.2-py3-none-any.whl (65 kB)
+Downloading sniffio-1.3.1-py3-none-any.whl (10 kB)
+Installing collected packages: websockets, uvloop, soupsieve, sniffio, six, pyyaml, python-multipart, python-dotenv, packaging, oauthlib, itsdangerous, idna, httptools, h11, click, certifi, uvicorn, python-dateutil, httpcore, fastcore, beautifulsoup4, anyio, watchfiles, starlette, sqlite-minutils, httpx, fastlite, python-fasthtml
+Successfully installed anyio-4.7.0 beautifulsoup4-4.12.3 certifi-2024.12.14 click-8.1.7 fastcore-1.7.27 fastlite-0.0.13 h11-0.14.0 httpcore-1.0.7 httptools-0.6.4 httpx-0.28.1 idna-3.10 itsdangerous-2.2.0 oauthlib-3.2.2 packaging-24.2 python-dateutil-2.9.0.post0 python-dotenv-1.0.1 python-fasthtml-0.10.1 python-multipart-0.0.20 pyyaml-6.0.2 six-1.17.0 sniffio-1.3.1 soupsieve-2.6 sqlite-minutils-4.0.3 starlette-0.42.0 uvicorn-0.34.0 uvloop-0.21.0 watchfiles-1.0.3 websockets-14.1
+
+(fero) stav@fedora:~/.../Ferro/hello$ pip install --upgrade pip
+Requirement already satisfied: pip in ./fero/lib64/python3.13/site-packages (24.2)
+Collecting pip
+  Downloading pip-24.3.1-py3-none-any.whl.metadata (3.7 kB)
+Downloading pip-24.3.1-py3-none-any.whl (1.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 11.6 MB/s eta 0:00:00
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 24.2
+    Uninstalling pip-24.2:
+      Successfully uninstalled pip-24.2
+Successfully installed pip-24.3.1
